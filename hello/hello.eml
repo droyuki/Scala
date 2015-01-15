@@ -3,7 +3,9 @@
 	<output-test url="file://$MODULE_DIR$/../out/test/hello"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="scala-library" scope="RUNTIME"/>
 	<levels>
 		<level name="scala-compiler" value="project"/>
+		<level name="scala-library" value="project"/>
 	</levels>
 </component>
