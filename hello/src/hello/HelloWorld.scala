@@ -9,9 +9,9 @@ object HelloWorld {
     def main(args: Array [String]){
       println("Hello, Scala!");
       
-     // var n : Boolean = name.exist(_.isUpperCase);
-      var t : String = "Test1234";
-      val b = t.exists(_.isUpper);
+     // var n : Boolean = name.exist(_.isUpperCase)
+      val t : String = "Test1234"
+      val b = t.exists(_.isUpper)
       //while,foreach,for
         var i = 0
         while (i < args.length) {
@@ -25,7 +25,7 @@ object HelloWorld {
         args.foreach(println); //args.foreach(i => print(i));
         println();
         
-        for(arg <- args) //¹ïargs¤¤ªºarg°µprintln
+        for(arg <- args) //ï¿½ï¿½argsï¿½ï¿½ï¿½ï¿½argï¿½ï¿½println
           println(arg);
         println();
         
@@ -42,16 +42,16 @@ object HelloWorld {
         println();
         val one = List(1, 2, 3);
         val two = List(4,5);
-        val three = one :: two; //List(List(1, 2, 3), 4, 5) ¬O¥ªµ²¦X¡A±None´¡¤J¨ìtwoªº³Ì«e
+        val three = one :: two; //List(List(1, 2, 3), 4, 5) ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Aï¿½Noneï¿½ï¿½ï¿½Jï¿½ï¿½twoï¿½ï¿½ï¿½Ì«e
          
-        //List¤¤ªºTuple
+        //Listï¿½ï¿½ï¿½ï¿½Tuple
         val ins = new a();
         ins.p(9);
         val t1 = (1,"one");
         val testList = List(t1,(9,"nine"),(10,"ten"));
         val testList2 = (2,"two")::testList
         testList2.foreach(println)
-        testList2.foreach(i => print(i._2+" ")); //¦L¥XTuple¤¤²Ä¤G­Ó¤¸¯À
+        testList2.foreach(i => print(i._2+" ")); //ï¿½Lï¿½XTupleï¿½ï¿½ï¿½Ä¤Gï¿½Ó¤ï¿½ï¿½ï¿½
         println();
          
 
@@ -61,7 +61,7 @@ object HelloWorld {
         println(jetSet.contains("QAQ"))// print "false"
         jetSet.foreach(println);
         //Hash Set
-        //­n¥ýimport scala.collection.immutable.HashSet 
+        //ï¿½nï¿½ï¿½import scala.collection.immutable.HashSet 
         val hSet = HashSet("a","b","c")
         hSet.foreach(op => print(op + " "))
         println();
